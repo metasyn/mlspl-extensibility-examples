@@ -21,7 +21,7 @@ class AdaBoostClassifier(ClassifierMixin, BaseAlgo):
     @staticmethod
     def register_codecs():
         from codec.codecs import SimpleObjectCodec, TreeCodec
-        codecs_manager.add_codec('algos.AdaBoostClassifier', 'AdaBoostClassifier', SimpleObjectCodec)
+        codecs_manager.add_codec('examples.AdaBoostClassifier', 'AdaBoostClassifier', SimpleObjectCodec)
         codecs_manager.add_codec('sklearn.ensemble.weight_boosting', 'AdaBoostClassifier', SimpleObjectCodec)
         codecs_manager.add_codec('sklearn.tree.tree', 'DecisionTreeClassifier', SimpleObjectCodec)
         codecs_manager.add_codec('sklearn.tree._tree', 'Tree', TreeCodec)

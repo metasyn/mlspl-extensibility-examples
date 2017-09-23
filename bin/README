@@ -1,1 +1,4 @@
-This is where you put any scripts you want to add to this app.
+Normally, this is where you put any scripts you want to add to this app.
+
+In this scenario, the package name we provided in default/algos.conf needs to match the folder name here.
+Additionally, for `examples` to be a valid python package, it needs to have an `__init__.py` present.t 
