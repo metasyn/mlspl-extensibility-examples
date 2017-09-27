@@ -33,7 +33,3 @@ This shows how to inherit the main methods from the mixin classes.
 ## AdaBoostClassifier
 
 This also shows using the mixin classes, in this case, with a more complex model.
-
-## Bernoulli Restricted Boltzman Machine
-
-This once again shows using the mixin classes, to add a neural network to the MLTK.
