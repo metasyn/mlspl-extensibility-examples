@@ -25,12 +25,12 @@ class SavgolFilter(BaseAlgo):
         if 'polyorder' in out_params:
             self.polyorder = out_params['polyorder']
         else:
-
             self.polyorder = 2
-            if 'deriv' in out_params:
-                self.deriv = out_params['deriv']
-            else:
-                self.deriv = 0
+
+        if 'deriv' in out_params:
+            self.deriv = out_params['deriv']
+        else:
+            self.deriv = 0
 
     def fit(self, df, options):
         X = df.copy()
